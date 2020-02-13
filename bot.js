@@ -14,3 +14,9 @@ client.on('message', (message) => {
 
 // THIS MUST BE THIS WAY
 client.login('process.env.token');
+
+
+discord command $edit:
+    trigger:
+        reply with "Ping" and store it in {_msg}
+        edit {_msg} to show "Pong!"
